@@ -1,4 +1,4 @@
-# word_cloud
+# Word Cloud
 
 R Programlama dilinde kelime bulutu oluşturma ve bu kelime bulutunda en sık geçen 10 kelimenin grafiği
 
