@@ -106,7 +106,6 @@ if (!require("RColorBrewer")) {
 }
 
 # Onceki parcacigin ciktisi
-
 set.seed(1234)
 wordcloud::wordcloud(words = d$word, freq = d$freq, min.freq = 1,
                      max.words = 200, random.order = FALSE, rot.per = 0.35,
@@ -114,7 +113,6 @@ wordcloud::wordcloud(words = d$word, freq = d$freq, min.freq = 1,
 
 
 # en sik kullanilan ilk 10 kelimenin grafigi
-
 barplot(d[1:10, ]$freq, las = 2, names.arg = d[1:10,]$word,
         col = "lightblue", main = "En Sık Kullanılan Kelimeler", 
         ylab = "Kelime Frekansları")
