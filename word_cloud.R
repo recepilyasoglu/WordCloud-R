@@ -105,6 +105,7 @@ if (!require("RColorBrewer")) {
   library(RColorBrewer)
 }
 
+
 # Onceki parcacigin ciktisi
 set.seed(1234)
 wordcloud::wordcloud(words = d$word, freq = d$freq, min.freq = 1,
