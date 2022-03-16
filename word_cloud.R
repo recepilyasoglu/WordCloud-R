@@ -31,7 +31,7 @@ stopwords("english")
 
 # stopwords kelimelerini derlemimizden cikarmak icin 
 # tm_map fonksiyonunu asagidaki gibi kullanabiliriz
-removeWords('To be or not to be.', stopwords("english"))
+removeWords('To be or not to be.', stopwords("english")) 
 
 # stopwords sözcüklerini derlemimizden çıkarmak için tm_map işlevini aşağıdaki gibi kullanabiliriz
 v <- tm_map(v, removeWords, stopwords("english"))
