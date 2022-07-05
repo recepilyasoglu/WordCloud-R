@@ -117,3 +117,4 @@ wordcloud::wordcloud(words = d$word, freq = d$freq, min.freq = 1,
 barplot(d[1:10, ]$freq, las = 2, names.arg = d[1:10,]$word,
         col = "lightblue", main = "En Sık Kullanılan Kelimeler", 
         ylab = "Kelime Frekansları")
+
